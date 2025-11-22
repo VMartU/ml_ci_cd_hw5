@@ -1,0 +1,10 @@
+stages:
+  - test
+
+test_job:
+  stage: test
+  image: python:3.10
+  script:
+    - pip install --upgrade pip
+    - pip install -r requirements.txt
+    - python -m pytest

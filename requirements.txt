@@ -1,0 +1,10 @@
+mlflow
+pandas
+numpy==1.26.4   
+scikit-learn
+deepchecks
+evidently
+matplotlib
+seaborn
+cryptography==41.0.5
+anywidget
