@@ -8,3 +8,4 @@ matplotlib
 seaborn
 cryptography==41.0.5
 anywidget
+pytest
